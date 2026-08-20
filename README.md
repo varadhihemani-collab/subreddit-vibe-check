@@ -123,9 +123,5 @@ Through this project, I gained practical experience in:
 **Hemani Varadhi**
 
 ### The Subreddit Vibe Check
-
 *A React-based web application for exploring and analyzing trending Reddit content.*
 
----
-
-⭐ If you found this project interesting, consider giving it a star!
