@@ -1,16 +1,72 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 The Subreddit Vibe Check
 
-Currently, two official plugins are available:
+Analyze the vibe of any Reddit community through its hot posts and sentiment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Subreddit Vibe Check is a React-based web application that fetches hot posts from any Reddit subreddit and analyzes the sentiment of each post title as Positive, Negative, or Neutral.
 
-## React Compiler
+✨ Features
+🔍 Search any subreddit
+🔥 Fetch hot Reddit posts
+📊 Display post scores
+👤 Display post authors
+🧠 Analyze post sentiment
+🟢 Positive sentiment
+🔴 Negative sentiment
+🟡 Neutral sentiment
+⚡ Simple and responsive interface
+🛠️ Technologies Used
+React.js
+JavaScript
+Vite
+CSS
+Reddit API
+🎯 How It Works
+Enter a subreddit name.
+Click Analyze.
+The application fetches hot posts from Reddit.
+Post titles are analyzed using sentiment keywords.
+Each post is classified as Positive, Negative, or Neutral.
+The results are displayed on the screen.
+🧠 Sentiment Analysis
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application uses a simple keyword-based approach.
 
-## Expanding the ESLint configuration
+🟢 Positive
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Examples: good, great, awesome, best, success, love, cool
+
+🔴 Negative
+
+Examples: bad, worst, error, issue, fail, bug, problem, risk
+
+🟡 Neutral
+
+Posts without recognized positive or negative keywords are classified as Neutral.
+
+▶️ How to Run
+Install dependencies
+
+npm install
+
+Start the application
+
+npm run dev
+
+Then open the local URL shown in the terminal.
+
+🚀 Future Improvements
+📊 Add sentiment charts
+📈 Add overall subreddit sentiment score
+🔎 Add advanced post filtering
+🧠 Improve sentiment analysis using NLP
+📱 Improve mobile responsiveness
+🌐 Deploy the application online
+📌 Project Status
+
+✅ Completed
+
+👩‍💻 Author
+Hemani Varadhi
+
+Frontend Developer | React | JavaScript
